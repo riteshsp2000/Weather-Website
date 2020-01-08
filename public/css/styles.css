@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap');
+
+body {
+  color: #333333;
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 1rem;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content{
+  flex-grow: 1;
+}
+
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 1rem;
+  padding: 1rem 0;
+}
+
+header {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+header a {
+  color: #888888;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.profile-picture {
+  width: 254px;
+}
+
+input {
+  border: 1px solid #cccccc;
+  padding: 0.5rem;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #888888;
+  background: #888888;
+  padding: 0.5rem;
+  color: #ffffff;
+}
+
+.message-1 {
+  padding-top: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  color: #333333;
+  max-width: 400px;
+}
+
+.message-2 {
+  padding: 0.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #555555;
+  max-width: 400px;
+}
+
