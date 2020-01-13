@@ -72,3 +72,7 @@ button {
   max-width: 400px;
 }
 
+.about-para {
+  color: #888888;
+  font-family: 'Roboto', sans-serif;
+}
