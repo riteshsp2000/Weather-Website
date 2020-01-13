@@ -28,6 +28,12 @@ header {
   margin-bottom: 3rem;
 }
 
+h3 {
+  color: #888888;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
 h1 {
   font-size: 4rem;
   margin-bottom: 1rem;
@@ -39,8 +45,12 @@ header a {
   text-decoration: none;
 }
 
-.profile-picture {
-  width: 254px;
+.profile-picture, .developer-image, .weather-gif {
+  width: 200px;
+}
+
+.developer-image {
+  border: 1px solid #888888;
 }
 
 input {
@@ -66,6 +76,7 @@ button {
 
 .message-2 {
   padding: 0.5rem;
+  padding-left: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   color: #555555;
@@ -74,5 +85,10 @@ button {
 
 .about-para {
   color: #888888;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+}
+
+.sizing {
+  font-size: 1rem;
 }

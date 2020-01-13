@@ -5,14 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+  {{>title}}
+
   <link rel="stylesheet" href="css/styles.css">
 
-  <title>Weather</title>
 </head>
 <body>
   <div class="main-content">
     {{>header}}
 
+    {{>weatherImage}}
+
+    <h3>Search the location for which you want to find the weather details.</h3>
     <form action="">
       <input type="text" placeholder="location">
       <button>Search</button>
